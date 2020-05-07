@@ -7,4 +7,3 @@ class Lead(models.Model):
     # blank=True so don't have to create message
     message = models.CharField(max_length=500, blank=True)
     created_at = models.DateTimeField(auto_now_add=True)
-    
